@@ -20,7 +20,7 @@ module Api
 
       private
       def room_params
-        params.require(:rooms).permit(:name)
+        params.require(:room).permit(:name)
       end
     end
   end
