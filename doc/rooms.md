@@ -15,30 +15,30 @@ Host: www.example.com
 ```
 HTTP/1.1 200
 Cache-Control: max-age=0, private, must-revalidate
-Content-Length: 447
+Content-Length: 432
 Content-Type: application/json; charset=utf-8
-ETag: W/"64fcf96a58c112465f2d076aa8236eeb"
-X-Request-Id: 0cd5bbaf-dc1f-49bf-bed9-0d9d0fc4efd0
-X-Runtime: 0.003740
+ETag: W/"ee2583925a33649b9a6f42e5b39fd021"
+X-Request-Id: 79bca422-bc33-4129-a476-0c64e10b2e21
+X-Runtime: 0.007145
 
 [
   {
-    "id": 55,
-    "name": "Here's looking at you, kid.",
-    "created_at": "2019-06-26T04:48:29.000+09:00",
-    "updated_at": "2019-06-26T04:48:29.000+09:00"
+    "id": 85,
+    "name": "May the Force be with you.",
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
   },
   {
-    "id": 56,
-    "name": "I love the smell of napalm in the morning.",
-    "created_at": "2019-06-26T04:48:29.000+09:00",
-    "updated_at": "2019-06-26T04:48:29.000+09:00"
+    "id": 86,
+    "name": "Toto, I've got a feeling we're not in Kansas anymore.",
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
   },
   {
-    "id": 57,
-    "name": "I'm going to make him an offer he can't refuse.",
-    "created_at": "2019-06-26T04:48:29.000+09:00",
-    "updated_at": "2019-06-26T04:48:29.000+09:00"
+    "id": 87,
+    "name": "Go ahead, make my day.",
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
   }
 ]
 ```
@@ -50,7 +50,7 @@ Get room.
 
 #### Request
 ```
-GET /api/v1/rooms/58 HTTP/1.1
+GET /api/v1/rooms/88 HTTP/1.1
 Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
 Content-Length: 0
 Host: www.example.com
@@ -60,17 +60,17 @@ Host: www.example.com
 ```
 HTTP/1.1 200
 Cache-Control: max-age=0, private, must-revalidate
-Content-Length: 163
+Content-Length: 136
 Content-Type: application/json; charset=utf-8
-ETag: W/"ace2009881780aea14b4bbb8f7527ffa"
-X-Request-Id: e450e594-0439-4eae-a835-a3b4878542e8
-X-Runtime: 0.014424
+ETag: W/"d9569a5147b550cf3e6407e7a56c0111"
+X-Request-Id: a4ea80eb-669f-4e0a-b3cb-fc85df4e6355
+X-Runtime: 0.006820
 
 {
-  "id": 58,
-  "name": "Fasten your seatbelts. It's going to be a bumpy night.",
-  "created_at": "2019-06-26T04:48:29.000+09:00",
-  "updated_at": "2019-06-26T04:48:29.000+09:00"
+  "id": 88,
+  "name": "Here's looking at you, kid.",
+  "created_at": "2019-06-26T05:00:40.000+09:00",
+  "updated_at": "2019-06-26T05:00:40.000+09:00"
 }
 ```
 
@@ -96,14 +96,14 @@ HTTP/1.1 200
 Cache-Control: max-age=0, private, must-revalidate
 Content-Length: 113
 Content-Type: application/json; charset=utf-8
-ETag: W/"9e262910e19f6da07491dec05be864e7"
-X-Request-Id: 36164875-f75e-43d5-a98f-980cb4a40713
-X-Runtime: 0.005018
+ETag: W/"f347b4cbde75799a0a8fe5a4c97f6c3e"
+X-Request-Id: 43854331-ff79-4151-9fc1-c3edad159e0a
+X-Runtime: 0.017047
 
 {
-  "id": 59,
+  "id": 89,
   "name": "test",
-  "created_at": "2019-06-26T04:48:29.000+09:00",
-  "updated_at": "2019-06-26T04:48:29.000+09:00"
+  "created_at": "2019-06-26T05:00:40.000+09:00",
+  "updated_at": "2019-06-26T05:00:40.000+09:00"
 }
 ```

@@ -2,7 +2,7 @@ module Api
   module V1
     class MessagesController < Api::V1::ApplicationController
       def index
-        messages = Message.where(room_id: params[:id])
+        messages = Message.where(room_id: params[:room_id])
 
         render json: messages
       end

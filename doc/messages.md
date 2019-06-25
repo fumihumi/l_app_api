@@ -5,7 +5,7 @@ Messageの一覧を取得する.
 
 #### Request
 ```
-GET /api/v1/rooms/52/messages HTTP/1.1
+GET /api/v1/rooms/82/messages HTTP/1.1
 Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
 Content-Length: 0
 Host: www.example.com
@@ -15,14 +15,37 @@ Host: www.example.com
 ```
 HTTP/1.1 200
 Cache-Control: max-age=0, private, must-revalidate
-Content-Length: 2
+Content-Length: 484
 Content-Type: application/json; charset=utf-8
-ETag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
-X-Request-Id: fa422875-dd94-4d3d-b83f-36c050b9c9fe
-X-Runtime: 0.008498
+ETag: W/"e7d747fcda8839d0e3dc06f789b864ea"
+X-Request-Id: ecfc93c1-6ee3-4420-9333-3f1eaae25fc8
+X-Runtime: 0.021575
 
 [
-
+  {
+    "id": 257,
+    "message": "50087ad79287d8655777",
+    "user_id": 116,
+    "room_id": 82,
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
+  },
+  {
+    "id": 258,
+    "message": "79e29f471864fbff9c88",
+    "user_id": 116,
+    "room_id": 82,
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
+  },
+  {
+    "id": 259,
+    "message": "804f0f60db521b2462e8",
+    "user_id": 116,
+    "room_id": 82,
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
+  }
 ]
 ```
 
@@ -33,7 +56,7 @@ Get messaege.
 
 #### Request
 ```
-GET /api/v1/rooms/53/messages/122 HTTP/1.1
+GET /api/v1/rooms/83/messages/260 HTTP/1.1
 Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
 Content-Length: 0
 Host: www.example.com
@@ -43,20 +66,20 @@ Host: www.example.com
 ```
 HTTP/1.1 200
 Cache-Control: max-age=0, private, must-revalidate
-Content-Length: 161
+Content-Length: 162
 Content-Type: application/json; charset=utf-8
-ETag: W/"3811316320195d39e265496a404e8b32"
-X-Request-Id: d8f817e2-e711-46c0-8cde-dea5531a2abd
-X-Runtime: 0.002286
+ETag: W/"be7adf8af4fb764adbb50f2da0f21735"
+X-Request-Id: f0525bf9-6212-4063-be77-526d1098e604
+X-Runtime: 0.001945
 
 [
   {
-    "id": 122,
-    "message": "7bf9d6abd8c90a7ad9ef",
-    "user_id": 73,
-    "room_id": 53,
-    "created_at": "2019-06-26T04:48:29.000+09:00",
-    "updated_at": "2019-06-26T04:48:29.000+09:00"
+    "id": 260,
+    "message": "54ad0c3479892fbfe5d4",
+    "user_id": 118,
+    "room_id": 83,
+    "created_at": "2019-06-26T05:00:40.000+09:00",
+    "updated_at": "2019-06-26T05:00:40.000+09:00"
   }
 ]
 ```
@@ -68,31 +91,31 @@ New message.
 
 #### Request
 ```
-POST /api/v1/rooms/54/messages HTTP/1.1
+POST /api/v1/rooms/84/messages HTTP/1.1
 Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
-Content-Length: 41
+Content-Length: 42
 Content-Type: application/x-www-form-urlencoded
 Host: www.example.com
 
-message[message]=test&message[user_id]=75
+message[message]=test&message[user_id]=120
 ```
 
 #### Response
 ```
 HTTP/1.1 200
 Cache-Control: max-age=0, private, must-revalidate
-Content-Length: 143
+Content-Length: 144
 Content-Type: application/json; charset=utf-8
-ETag: W/"1eb6721ed7be892852923ca8a3e7a322"
-X-Request-Id: 72d406bf-e0e6-4d37-90f5-310b5a1725d9
-X-Runtime: 0.010961
+ETag: W/"a6f0399267ccc090f1d8192a10732212"
+X-Request-Id: ca25a1e8-7a6c-4294-8f9c-d0be307c40b2
+X-Runtime: 0.031612
 
 {
-  "id": 132,
+  "id": 266,
   "message": "test",
-  "user_id": 75,
-  "room_id": 54,
-  "created_at": "2019-06-26T04:48:29.000+09:00",
-  "updated_at": "2019-06-26T04:48:29.000+09:00"
+  "user_id": 120,
+  "room_id": 84,
+  "created_at": "2019-06-26T05:00:40.000+09:00",
+  "updated_at": "2019-06-26T05:00:40.000+09:00"
 }
 ```

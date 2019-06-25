@@ -4,7 +4,7 @@ RSpec.describe 'MessagesController' do
   before do
     room = create(:room)
     u1, u2 = [create(:user), create(:user)]
-    5.times do
+    3.times do
       Message.create(
         message: SecureRandom.hex(10),
         user_id: [u1, u2].sample.id,
