@@ -1,24 +1,14 @@
-# README
+## this is simple BBS Rails api 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Make IT 活動用
 
-Things you may want to cover:
 
-* Ruby version
+- doc 
+  `/doc`に各APIのエンドポントとレスポンスがある
 
-* System dependencies
+  endpoint↓
+[![Image from Gyazo](https://i.gyazo.com/4434506f3204ba9dfc9283c0c98cf6bf.png)](https://gyazo.com/4434506f3204ba9dfc9283c0c98cf6bf)
 
-* Configuration
+- 何かあればISSUEなり、PRなり、Discordで連絡ください。
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+frontend repo: https://github.com/haduki1208/l_app_example
