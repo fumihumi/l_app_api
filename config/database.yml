@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
-  database: l_app_api_production
-  username: l_app_api
-  password: <%= ENV['L_APP_API_DATABASE_PASSWORD'] %>
+  database: <%= ENV['PROD_DB_NAME'] %>
+  username: <%= ENV['PROD_DB_USER'] %>
+  password: <%= ENV['PROD_DB_PASSWORD'] %>
+  host: <%= ENV['PROD_DB_HOST'] %>
