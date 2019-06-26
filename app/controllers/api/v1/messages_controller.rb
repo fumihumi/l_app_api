@@ -2,7 +2,7 @@ module Api
   module V1
     class MessagesController < Api::V1::ApplicationController
       def index
-        @messages = Message.joins(:user).where(room_id: params[:room_id])
+        @messages = Message.joins(:user).where(room_id: params[:room_id]).order(:id)
 
         render 'index', formats: 'json', handlers: 'jbuilder'
       end
